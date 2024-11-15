@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(2, 2, 63) 45%, rgb(0, 0, 175) 80%, rgb(25, 2, 235) 100%);
+    color: white;
+    border-radius: 35px 35px 0 0; 
+    margin-top: 20px;
+}
+.container h1 {
+    font-size: 26px;
+}
+
+/* ////////// responsive ////////// */
+
+@media (max-width: 576px) { /* smartphone pequeno */
+    .container h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) { /* smartphone médio */
+    .container h1 {
+        font-size: 20px;
+    }
+}

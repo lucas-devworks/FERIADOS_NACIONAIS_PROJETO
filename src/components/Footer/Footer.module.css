@@ -1,0 +1,85 @@
+.container_rodape {
+    width: 100%;
+    height: 20vh;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #02023f;
+    color: white;
+}
+
+.secao_links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;  
+}
+.secao_links a {
+    text-decoration: none;
+    color: white;
+    opacity: 85%;
+}
+
+.secao_links li {
+    padding-left: 10px;
+}
+
+/* div contatos */
+.contatos ul, .portfolio ul {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.contatos a, .portfolio a {
+    display: flex;
+    gap: 5px;
+}
+.contatos a div {
+    display: flex;
+    align-items: center;
+}
+
+/* div copyright */
+.copy {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    justify-content: end;
+}
+
+/* hover */
+.container_rodape a:hover {
+    scale: 1.1;
+    transition: 0.10s;
+    text-decoration: underline;
+    opacity: 100%;
+}
+
+/* ////////// responsive ////////// */
+
+@media (max-width: 576px) { /* smartphone pequeno */
+    .container_rodape {
+        height: auto;
+    }
+    .secao_links {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        font-size: 14px;
+    }
+    .copy {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) { /* smartphone médio */
+    .copy {
+        font-size: 14px;
+        flex-basis: 1;
+    }
+}
