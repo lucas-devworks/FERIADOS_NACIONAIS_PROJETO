@@ -15,7 +15,7 @@ export default function Footer() {
                 <div className={estilos.portfolio}>
                     <ul type="none">
                      <h4>Meu Portfólio</h4>
-                      <li><Link href="https://myportfolio-f0rj7grib-lucas-teixeira-santos-projects.vercel.app/" target='_blank'>
+                      <li><Link href="https://myportfolio-nine-ecru.vercel.app/" target='_blank'>
                       Alguns Projetos</Link></li>
                      </ul>
                 </div>
